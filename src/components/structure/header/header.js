@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import AuthService from '../../services/auth.service';
-import { Icon } from '../Icons/Icons';
+import AuthService from '../../../services/auth.service';
+import { Icon } from '../../Icons/Icons';
 
 class Header extends React.Component {
     constructor(props) {
@@ -17,7 +17,7 @@ class Header extends React.Component {
     render() {
         return (
             <Fragment>
-                <div className="header">
+                <div className="app-header">
                     <div className="logo"><Icon icon="rocket" />Project Manager</div>
                     <div className="account">
                         <span>Account Menu</span>
