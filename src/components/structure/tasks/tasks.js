@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-
+import ListTasks from '../../task/listTasks';
 class Tasks extends React.Component {
     constructor(props) {
         super(props);
@@ -10,15 +10,8 @@ class Tasks extends React.Component {
             <Fragment>
               <div className="app-tasks-main">
                 <span>Tasks</span>
-                
-                <div className="app-tasks-list">
-                  <div className="app-task-item">Task number 1</div>
-                  <div className="app-task-item">Task number 2</div>
-                  <div className="app-task-item">Task number 3</div>
-                </div>
-
+                <ListTasks />            
                 <button>Add Task</button>
-                
               </div>
             </Fragment>
         )
