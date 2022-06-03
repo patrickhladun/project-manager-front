@@ -1,0 +1,26 @@
+@import 'general/reset';
+@import 'general/global';
+@import 'general/variables';
+@import 'components/components';
+
+html {
+
+}
+.body {
+    display: flex;
+}
+.main {
+    display: flex;
+    width: 100%;
+}
+
+// .app-wrapper {
+//     display: grid;
+//     grid-template-columns: 200px 1fr;
+//     align-items: stretch;
+// }
+
+// .sidebar {
+//     display: flex;
+//     justify-content: stretch;
+// }

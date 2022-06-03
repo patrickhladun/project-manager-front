@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    background: #BFB6A8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 24px;
+}
+
+.account {
+    margin-left: auto;
+}
+
+.logo {
+    display: flex;
+    font-size: 20px;
+    width: 90px;
+    justify-content: space-between;
+    align-items: center;
+    color: red;
+    fill: red;
+}

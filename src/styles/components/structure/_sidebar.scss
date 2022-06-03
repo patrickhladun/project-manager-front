@@ -1,0 +1,12 @@
+.sidebar {
+    background: #252623;
+    color: white;
+    padding: 24px;
+}
+ul li a {
+    color: white;
+
+    &.is-active {
+        font-weight: bold;
+    }
+}
