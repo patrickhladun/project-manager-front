@@ -5,7 +5,7 @@ import Dashboard from './pages/Dashboard/Dashboard';
 import Login from './pages/Login/Login';
 import Signup from './pages/Signup/Signup';
 import NotFound from './pages/notfound';
-import Header from './components/structure/header';
+import Header from './components/structure/header/header';
 
 class App extends Component {
     constructor(props) {
@@ -86,7 +86,7 @@ class App extends Component {
                                 <li><NavLink to="/workouts" activeClassName="is-active" exact={true}>Workouts</NavLink></li>
                             </ul>
                         </div>}
-                        <div className="main">
+                        <div className="app-page">
                             {routes}
                         </div>
                     </div>
